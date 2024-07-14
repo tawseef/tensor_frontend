@@ -28,6 +28,21 @@
   color: #61dafb;
 }
 
+.log-Btn{
+  margin: 20px;
+  width: 100px;
+  height: 45px;
+  background-color: rgba(34, 168, 147, 0.845);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.bg-red{
+  background-color: rgb(228, 13, 13);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
