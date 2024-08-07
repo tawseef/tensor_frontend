@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./profile.style.css";
 
-const ZAPIER_API = "http://localhost:8082/v1/invoices";
+// const ZAPIER_API = "http://localhost:8082/v1/invoices";
+const ZAPIER_API = "https://tensor-backend-fo95.onrender.com";
 
 const Profile = () => {
   const { user, isAuthenticated, isLoading, logout } = useAuth0();
