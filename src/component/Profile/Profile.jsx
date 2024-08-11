@@ -53,6 +53,7 @@ const Profile = () => {
             }
             required
           />
+          <label for="message"><h3>Message: </h3></label>
           <input className="inputBox"
             type="text"
             placeholder="Enter Message"
@@ -62,6 +63,7 @@ const Profile = () => {
             }
             required
           />
+          <label for="Date"><h3>Date: </h3></label>
           <input className="inputBox"
             type="date"
             placeholder="Enter Date"
@@ -71,6 +73,7 @@ const Profile = () => {
             }
             required
           />
+          <label for="amount"><h3>Amount: </h3></label>
           <input className="inputBox"
             type="number"
             placeholder="Enter Amount"
