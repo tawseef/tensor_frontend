@@ -43,7 +43,7 @@ const Profile = () => {
             handleSubmit();
           }}
         >
-            <label for="email">Email: </label>
+            <label for="email"><h3>Email: </h3></label>
           <input className="inputBox"
             type="email"
             placeholder="Enter Email"
